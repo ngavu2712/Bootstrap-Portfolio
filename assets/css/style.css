@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    background:#ffffff;
 
     /*control what happen to the content that is too big to fit into the area*/ 
     overflow:auto;
@@ -28,6 +27,7 @@ div {
 nav {
     width: 100%;
     margin: 0;
+    
 }
 
 span {

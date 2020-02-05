@@ -18,11 +18,11 @@ header {
 
     top: 0;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-
+    border-bottom: 1px solid lightbluesky;
 }
 
 nav {
-    max-width: 1200px;
+    width: 100%;
     margin: 0;
 }
 
@@ -132,7 +132,7 @@ div {
 
 footer {
     background:grey;
-    border-top: 5px solid #4aaaa5;
+    border-top: 1px solid #4aaaa5;
     margin: 0;
     text-align: center;
     padding: 20px;
