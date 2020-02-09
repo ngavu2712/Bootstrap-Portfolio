@@ -4,97 +4,40 @@ html {
 }
 
 body {
-    
-    position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
 
     /*control what happen to the content that is too big to fit into the area*/ 
-    overflow:auto;
-
-    top: 0;
+    
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    border-bottom: 1px solid lightskyblue;
+    border-bottom: 3px solid darkgray;
 
 }
 
-div {
-    font-size: 12px;
-}
 
-nav {
-    width: 100%;
-    margin: 0;
-    
-}
 
-span {
-    float: left;
-    padding: 15px;
-    background-color: #4aaaa5;
-    color: white;
-    width: 200px;
-    text-align: center;
-    margin-left:200px;
-    border: 1px solid lightgray;
-}
 
-ul {
-    float: right;
-    margin: 10px;
-    justify-content: center;
-    color: lightgrey;
-}
 
-li {
-    float: left;
-
-    /*Remove the bullet point*/
-    list-style: none;
-
-    padding: 5px;   
-}
-
-.rightborder {
-    border-right: 2px solid gray;
-}
-
-section {
-    padding: 25px;
-    background: #ffffff;
-    width: 960px;
-    border: 1px solid lightgrey; 
-    margin: 50px auto 100px auto;
-    height: 500px;
-    
-}
-
-img {
-    width: 200px;
-    float: left;
-    margin-right: 10px;
-}
 
 
 .aboutme {
-    color: #4aaaa5;
-    justify-content: center;
-    font-size: 35px;
-
+    color: darkgray;
+    width:fit-content;
+    font-size:25px;
+    margin: 40px 20px 40px 135px;
 }
 
 
 
 
 footer {
-    background:grey;
-    border-top: 1px solid lightskyblue;
-    margin: 0;
+    
+    border-top: 3px solid darkgray;
+    margin: 150px 0 0 0;
     text-align: center;
     padding: 20px;
     position: sticky;
 
 }
-

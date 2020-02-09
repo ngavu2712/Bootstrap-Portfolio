@@ -10,22 +10,17 @@ body {
 }
 
 header {
-    background:#ffffff;
-
-    /*Make the header fixed when you scroll down*/
-    position: sticky;
 
     /*control what happen to the content that is too big to fit into the area*/ 
     overflow:auto;
-
-    top: 0;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-
+    border-bottom: 1px solid lightskyblue;
 }
 
 nav {
-    max-width: 1200px;
+   width: 100%;
     margin: 0;
+
 }
 
 span {
@@ -38,27 +33,8 @@ span {
     margin-left: 280px;
 }
 
-ul {
-    float: right;
-    margin: 10px;
-    justify-content: center;
-    color: lightgrey;
-}
 
-li {
-    float: left;
-
-    /*Remove the bullet point*/
-    list-style: none;
-
-    padding: 5px;   
-}
-
-.rightborder {
-    border-right: 2px solid gray;
-}
-
-#contact {
+.row {
     color: #4aaaa5;
     font-size: 40px;
 }
@@ -104,8 +80,7 @@ input[type=submit]:hover {
 
 
 footer {
-    background:grey;
-    border-top: 5px solid #4aaaa5;
+    border-top: 1px solid lightskyblue;
     margin: 0 auto;
     text-align: center;
     padding: 20px;

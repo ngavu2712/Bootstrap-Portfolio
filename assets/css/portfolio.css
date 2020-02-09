@@ -11,14 +11,12 @@ body {
 
 header {
     background:#ffffff;
-    position: sticky;
-
     /*control what happen to the content that is too big to fit into the area*/ 
     overflow:auto;
 
     top: 0;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    border-bottom: 1px solid lightbluesky;
+    border-bottom: 1px solid LightSkyBlue;
 }
 
 nav {
@@ -58,9 +56,7 @@ li {
 
 section {
     background: #ffffff;
-    margin: 20px auto 40px auto;
-    max-width: 1200px;
-    width: 600px;
+    margin: auto;
     border: 1px solid lightgray;
 }
 .container {
@@ -98,11 +94,9 @@ section {
     padding: 20px 25px;
 }
 
-div {
-    color: gray;
-    margin: auto;
+
     
-}   
+  
 
 .row1 {
     background: #ffffff;
@@ -132,10 +126,37 @@ div {
 
 footer {
     background:grey;
-    border-top: 1px solid #4aaaa5;
-    margin: 0;
+    border-top: 1px solid lightskyblue;
+
     text-align: center;
     padding: 20px;
+    width:100%;
 
 }
 
+.textoverimage {
+    width: 180px;
+    height: 180px;
+    position: relative;
+
+    /*Make the image pop out when you hover your mouse over*/
+    background-size:center;
+}
+.textoverimage:hover {
+     /*Make the image pop out when you hover your mouse over*/
+    background-size: 110%;
+}
+
+.textoverimage:after {
+    position: absolute;
+    background: blue;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    content:attr (data-text);
+}
+
+
+}
