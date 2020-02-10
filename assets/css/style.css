@@ -51,6 +51,26 @@ footer {
 
 }
 
+.text-block {
+   
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+
+    /*putting a text block over image by setting the block to the center*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    /*set up the width to be equal with the image*/
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    padding: 12px 0;
+}
 
 
 
