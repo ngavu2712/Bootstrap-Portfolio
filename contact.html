@@ -8,7 +8,6 @@
 
     </head>
 
-    <body>
 
         <header>  
 
@@ -53,23 +52,47 @@
               </nav>
     
         </header>
-        
-        <form>
+
+          
+      
+      <div class="contact">Contact</div>
+
+      <div class="container" style="width:960px;">
+        <form class="table">
           <div class="row">
-            <div class="col">
+            <div class="col-sm-6">
               <input type="text" class="form-control" placeholder="First name">
             </div>
-            <div class="col">
+            <div class="col-sm-6">
               <input type="text" class="form-control" placeholder="Last name">
             </div>
           </div>
+        
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Messages</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Choose your file</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+
+          <input class="btn btn-primary" type="submit" value="Submit">
+
         </form>
+      </div>
 
        
         <footer class="footer" style="background: #e3f2fd">Copyright</footer>
 
 
-    </body>
+  
 
    
 </html>

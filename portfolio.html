@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Gallery</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
 
     <body>
-        <body style="background-image: url('full-bloom/full-bloom.png');">
+        <body>
 
             <header>  
     
@@ -17,8 +17,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                  
-                    <span style="background-color: lightskyblue; font-size: 30px;">Anna Vu</span>
+    
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -54,24 +53,33 @@
         
             </header>
 
-        <section>
-            <div class="container">
-                <div class="row">
-                  <div class="col-md-6">
-                      <!--Add text over image-->
-                    <div class="textoverimage" style="background-image: url('assets/images/RosieTech-600x399-180x180@2x.jpg');" data-text="Hangman"></div>
-                  </div>
-
-                  <div class="col-md-6">
-                       <!--Add text over image-->
-                    <div class="textoverimage" style="background-image: url('assets/images/RPG game.jpg');" data-text="RPG Game">RPG Game</div>
-               
-                  </div>
-                </div>
+        <div style="width: 700px; margin: 50px auto 100px auto;" class="container">
+          <div class="row">
+            <div style="text-align:center; padding: 20px 0;" class="col-md-6">
+              <img src="assets/images/RosieTech-600x399-180x180@2x.jpg">
             </div>
 
-        </section>
+            <div style="text-align:center; padding: 20px 0;" class="col-md-6">
+              <img src="assets/images/RPG game.jpg">
+            </div>
+          </div>
 
+          <div class="row">
+            <div style="text-align:center;padding: 0 0 20px 0;" class="col-md-6">
+              <img style="background:salmon;" src="assets/images/triavia game.jpg">
+            </div>
+            <div style="text-align:center; padding: 0 0 20px 0;" class="col-md-6">
+              <img src="assets/images/widgets.jpg">
+            </div>
+          </div>
+
+          <div style="text-align:center;padding: 0 0 20px 0;" class="row">
+            <div class="col-md-6">
+              <img src="assets/images/technics-q-c-640-480-9.jpg">
+            </div>
+          </div>
+
+        </div>
             
 
             <footer style="background: #e3f2fd">Copyright</footer>

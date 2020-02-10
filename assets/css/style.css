@@ -1,7 +1,5 @@
-html {
-    background: lightgray;
-    /* background-image: url(full-bloom/full-bloom.png); */
-}
+
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +14,11 @@ header {
 
 }
 
+.table {
+    width: 500px;
+    margin: auto;
+    background:lightgray;
+}
 
 
 
@@ -29,6 +32,12 @@ header {
     margin: 40px 20px 40px 135px;
 }
 
+.contact {
+    color: darkgray;
+    width:fit-content;
+    font-size:25px;
+    margin: 40px 20px 40px 250px;
+}
 
 
 
@@ -41,3 +50,7 @@ footer {
     position: sticky;
 
 }
+
+
+
+
